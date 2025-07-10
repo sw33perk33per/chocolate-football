@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'SoDo Sans';
+    src: url(assets/SoDoSans-Regular.ttf);
+}
+
+a{
+    color: black;
+}
+
+.left-right-sections{
+    margin: 20px 30px 50px 30px;
+    display: flex;
+}
+
+.left-right-sections .text {
+    width: 50%;
+    color:white;
+    padding: 32px 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #32462f;
+}
+
+.text h1 {
+    font: 'SoDoSans', Helvetica, Arial, sans-serif;
+    font-size: 46px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.text h3 {
+    font: 'SoDoSans', Helvetica, Arial, sans-serif;
+    font-size: 34px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 45px;
+    font-size: 19px;
+    text-align: center;
+}
+
+.text h3 {
+    font: 'SoDoSans', Helvetica, Arial, sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 45px;
+    font-size: 19px;
+    text-align: center;
+}
+
+.text .cta {
+    padding: 7px 16px;
+    border: 1px solid;
+    border-radius:  50px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    color: white;
+}
+
+.text .cta:hover {
+    background-color: rgba(146, 241, 216, 0.1);
+}
+
+.left-right-sections .image {
+    width: 50%;
+    display: flex;
+}
+
+.left-right-sections .image img {
+    width: 100%;
+}
+
+#p1 .text {
+    background-color: #32462f;
+}
+
+#p2 .text {
+    background-color: #32472f;
+}
+
+#p3 .text {
+    background-color: #006342;
+}
+
+#p4 .text {
+    background-color: #32452f;
+}
+
+.footnote {
+    display: block;
+    font-size: 14px;
+    font-weight: 545;
+    margin: 100px 450px;
+    text-align: center;
+    line-height: 1.8;
+}
+
+.footer {
+    font-size: xx-small;
+    text-align: right;
+}
